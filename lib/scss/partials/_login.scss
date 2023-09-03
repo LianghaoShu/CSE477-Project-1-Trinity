@@ -1,0 +1,43 @@
+#login {
+
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+  input[type = email]{
+    width:20em;
+  }
+
+  input[type = password]{
+    width:20em;
+  }
+
+  background: white;
+
+  legend{
+    font-size: 3em;
+    text-align: center;
+  }
+
+  text-align: left;
+
+  fieldset{
+    display: block;
+
+  }
+
+  .msg{
+    text-align: center;
+    color: red;
+    font-size: 0.9em;
+    font-style: italic;
+  }
+
+
+
+
+}
+
+
+

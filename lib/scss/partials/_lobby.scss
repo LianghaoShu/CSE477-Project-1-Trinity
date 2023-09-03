@@ -1,0 +1,46 @@
+div.lobbies {
+  table {
+    font-size: 0.9em;
+  }
+
+  input[type="submit"] {
+    width: 10em;
+  }
+}
+
+div.lobby {
+  h2 {
+    border-bottom: thin solid black;
+    margin-top: 1em;
+  }
+
+  span.time {
+    font-style:italic;
+    font-size: 0.9em;
+  }
+
+  form {
+    margin: 0em 2em;
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    #name {
+      width: 100%;
+    }
+
+    #players {
+      width: 8em;
+    }
+  }
+
+  div.reports {
+    input[type="submit"] {
+      width: 10em;
+    }
+  }
+}
+
+
+

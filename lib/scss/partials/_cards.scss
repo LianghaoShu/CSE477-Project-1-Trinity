@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+  font-size: 2em;
+}
+
+div.print-only{
+  display: none;
+}
+
+div.card {
+  display: inline-block;
+  width: 7em;
+  p{
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+
+form.no-print{
+  text-align: center;
+}
+
+@media print{
+  div.print-only{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+  }
+  form.no-print{
+    display: none;
+  }
+}

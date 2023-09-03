@@ -1,0 +1,6 @@
+.idea
+vendor
+node_modules
+composer
+**\game.inc.php
+**\localize.inc.php

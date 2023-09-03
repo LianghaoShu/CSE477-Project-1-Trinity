@@ -1,0 +1,14 @@
+div.user {
+  border: thin solid black;
+
+  background-color: white;
+  width:25em;
+  margin: 1em auto 0 auto;
+  padding: 1em;
+  p {
+    text-align: left;
+    input[type=text], input[type=email]{
+      width: 20em;
+    }
+  }
+}
